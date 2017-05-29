@@ -1,0 +1,39 @@
+In Ledges.ts 
+    * Changed "shadow" to this.gameStarter.things.names.shadow
+In Bubble.js 
+    * Changed "BubbleLarge" to this.gameStarter.things.names.BubbleLarge
+    * Changed "Bubblesmall" to this.gameStarter.things.names.BubbleSmall
+In Actions.ts 
+    * Changed "SightDetector" to this.gameStarter.things.names.SightDetector
+    * Changed "Exclamation" to this.gameStarter.things.names.Exclamation
+    * changed "Square" to this.gameStarter.things.names.Square
+In Scratch.ts
+    * Changed "ScratchLine" to this.gameStarter.things.names.ScratchLine
+    * Changed "ExplosionSmall" to this.gameStarter.things.names.ExplosionSmall
+In OakParcelDeliveryCutscene.ts
+    * Changed "Rival" to this.gameStarter.things.names.Rival
+In PokeCenterCutscene.ts
+    * Changed "HealingMachineBall" to this.gameStarter.things.names.HealingMachineBall
+In Maps.ts
+    * Changed "AreaGate" to this.gameStarter.things.names.AreaGate
+    * Changed "Player" to this.gameStarter.things.names.Player
+In keyDownA.ts
+    * Changed "FenceWide" to this.gameStarter.things.names.FenceWide
+    * Changed "Player" to this.gameStarter.things.names.Player
+In Growl.ts
+    * Changed "Note" to this.gameStarter.things.names.Note
+In QuickAttack.ts
+    * Changed "ExplosionLarge" to this.gameStarter.things.names.ExplosionLarge
+In IntroCutScene.ts
+    * Changed "OakPortrait" to this.gameStarter.things.names.OakPortrait
+    * Changed "WhiteSquare" to this.gameStarter.things.names.WhiteSquare
+    * Changed "NIDORINOFront" to this.gameStarter.things.names.NIDORINOFront
+    * Changed "PlayerPortrait" to this.gameStarter.things.names.PlayerPortrait
+    * Changed "RivalPortrait" to this.gameStarter.things.names.RivalPortrait
+    * Changed "PlayerSilhouetteSmall" to this.gameStarter.things.names.PlayerSilhouetteSmall
+    * Changed "PlayerSilhouetteLarge" to this.gameStarter.things.names.PlayerSilhouetteLarge
+    * Changed "Player" to this.gameStarter.things.names.Player
+In OakIntroCutscene.ts
+    * Changed "Oak" to this.gameStarter.things.names.Oak
+In RivalRoute22Cutscene.ts
+    * Changed "Rival" to this.gameStarter.things.names.Rival
