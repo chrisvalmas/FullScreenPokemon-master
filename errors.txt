@@ -1,0 +1,363 @@
+[18:21:06] Using gulpfile ~\FullScreenPokemon-master\gulpfile.js
+[18:21:06] Starting 'default'...
+[18:21:06] Starting 'src'...
+[18:21:06] Starting 'src:tsc'...
+[18:21:06] Starting 'src:tslint'...
+[18:21:08] Starting 'src:scss'...
+[18:21:08] Starting 'src:scssLint'...
+[18:21:09] Finished 'src:scssLint' after 482 ms
+[18:21:10] Finished 'src:scss' after 2.11 s
+[18:21:21] Finished 'src:tslint' after 15 s
+[18:21:42] Finished 'src:tsc' after 37 s
+[18:21:43] Finished 'src' after 37 s
+[18:21:43] Starting 'lib'...
+[18:21:43] Starting 'lib:tsc'...
+[18:22:04] Finished 'lib:tsc' after 21 s
+[18:22:04] Starting 'lib:copy'...
+[18:22:04] Finished 'lib:copy' after 109 ms
+[18:22:04] Starting 'lib:cssMin'...
+[18:22:04] Finished 'lib:cssMin' after 107 ms
+[18:22:04] Starting 'lib:html'...
+[18:22:04] Finished 'lib:html' after 151 ms
+[18:22:04] Finished 'lib' after 21 s
+[18:22:04] Starting 'test'...
+[18:22:04] Starting 'test:html'...
+[18:22:04] Starting 'test:utilities'...
+[18:22:04] Finished 'test:html' after 34 ms
+[18:22:04] Finished 'test:utilities' after 17 ms
+[18:22:04] Starting 'test:tsc'...
+[18:22:08] Finished 'test:tsc' after 4.34 s
+[18:22:08] Starting 'test:run'...
+
+[0m[0m
+[0m  components[0m
+[0m    Collisions[0m
+[0m      isCharacterTouchingCharacter[0m
+      [32m  ✓[0m[90m returns true when characters are touching[0m
+      [32m  ✓[0m[90m returns false when characters aren't touching[0m
+      [32m  ✓[0m[90m returns false when a character is following another[0m
+[0m    inputs[0m
+[0m      keyDownA[0m
+      [32m  ✓[0m[90m activates a bordering activatable solid[0m
+      [32m  ✓[0m[90m does not activate a non-bordering activatable solid[0m
+[0m    isEvolved[0m
+    [32m  ✓[0m[90m evolves a Pokemon at exactly its level requirement[0m
+    [32m  ✓[0m[90m evolves a Pokemon that exceeds its level requirement[0m
+    [32m  ✓[0m[90m does not evolve a Pokemon that has not yet reached its level requirement[0m
+[0m    Menus[0m
+[0m      pause[0m
+      [32m  ✓[0m[90m opens when pause is pressed[0m
+      [32m  ✓[0m[90m closes after B is pressed[0m
+
+[0m  games[0m
+[0m    Blank[0m
+    [32m  ✓[0m[90m Black[0m
+    [32m  ✓[0m[90m White[0m
+[0m    Pallet Town[0m
+    [32m  ✓[0m[90m Player's House Door[0m
+    [32m  ✓[0m[90m Player's House Floor 1 Door[0m
+    [32m  ✓[0m[90m Player's House Floor 1 Stairs[0m
+    [32m  ✓[0m[90m Player's House Floor 2 Stairs[0m
+    [32m  ✓[0m[90m Start Game[0m
+    [32m  ✓[0m[90m Rival's House Door[0m
+    [32m  ✓[0m[90m Rival's House Floor 1 Door[0m
+    [32m  ✓[0m[90m Oak's Lab Door[0m
+    [32m  ✓[0m[90m Oak's Lab Floor 1 Door[0m
+[0m    Pewter City[0m
+    [32m  ✓[0m[90m Museum of Science Outside Door[0m[33m (39ms)[0m
+    [32m  ✓[0m[90m Pewter Gym Outside Door[0m[33m (59ms)[0m
+    [32m  ✓[0m[90m PokeCenter Outside Door[0m[33m (52ms)[0m
+    [32m  ✓[0m[90m PokeMart Outside Door[0m[33m (55ms)[0m
+    [32m  ✓[0m[90m Outsider House Front Door[0m[33m (53ms)[0m
+    [32m  ✓[0m[90m Info House Front Door[0m[33m (53ms)[0m
+    [32m  ✓[0m[90m Museum of Science Inside Door[0m
+    [32m  ✓[0m[90m Pewter Gym Floor 1 Door[0m
+    [32m  ✓[0m[90m PokeCenter Inside Door[0m
+    [32m  ✓[0m[90m PokeMart Inside Door[0m
+    [32m  ✓[0m[90m Museum of Science Floor 1 Door[0m
+    [32m  ✓[0m[90m Outsider House Floor 1 Door[0m
+    [32m  ✓[0m[90m Info House Floor 1 Door[0m
+[0m    Route 1[0m
+    [32m  ✓[0m[90m Top Path[0m[33m (39ms)[0m
+    [32m  ✓[0m[90m Bottom Path[0m[33m (41ms)[0m
+[0m    Route 2[0m
+    [32m  ✓[0m[90m Viridian Forest Top[0m[33m (50ms)[0m
+    [32m  ✓[0m[90m Viridian Forest Bottom[0m[33m (52ms)[0m
+[0m    Route 21[0m
+    [32m  ✓[0m[90m Temp[0m
+[0m    Route 22[0m
+    [32m  ✓[0m[90m Pokemon League[0m
+[0m    Viridian City[0m
+    [32m  ✓[0m[90m Nicknamer House Front Door[0m[33m (59ms)[0m
+    [32m  ✓[0m[90m School Front Door[0m[33m (64ms)[0m
+    [32m  ✓[0m[90m PokeCenter Outside Door[0m[33m (62ms)[0m
+    [32m  ✓[0m[90m PokeMart Outside Door[0m[33m (62ms)[0m
+    [32m  ✓[0m[90m Nicknamer House Floor 1 Door[0m
+    [32m  ✓[0m[90m School Floor 1 Door[0m
+    [32m  ✓[0m[90m PokeCenter Inside Door[0m
+    [32m  ✓[0m[90m PokeMart Inside Door[0m
+[0m    Viridian Forest[0m
+    [32m  ✓[0m[90m Gate North Door North[0m
+    [32m  ✓[0m[90m Gate North Door South[0m
+    [32m  ✓[0m[90m Forest Bottom[0m
+    [32m  ✓[0m[90m Forest Top[0m
+    [32m  ✓[0m[90m Gate South Door North[0m
+    [32m  ✓[0m[90m Gate South Door South[0m
+
+
+[92m [0m[32m 54 passing[0m[90m (2s)[0m
+
+[18:22:14] Finished 'test:run' after 5.68 s
+[18:22:14] Finished 'test' after 10 s
+[18:22:14] Starting 'docs'...
+[18:22:14] Starting 'docs:typedoc'...
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(67)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+  Types of property 'actions' are incompatible.
+    Type 'Actions<FullScreenPokemon>' is not assignable to type 'Actions<FullScreenPokemon>'. Two different types with this name exist, but they are unrelated.
+      Type 'FullScreenPokemon' is not assignable to type 'FullScreenPokemon'. Two different types with this name exist, but they are unrelated.
+        Property 'resetComponents' is protected but type 'FullScreenPokemon' is not a class derived from 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(71)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(75)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(79)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(83)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(87)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(91)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(95)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(99)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(103)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(107)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(111)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(115)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(119)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(123)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(127)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(131)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(135)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(139)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(143)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(147)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(151)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+[18:22:43] C:/Users/valmac/FullScreenPokemon-master/src/FullScreenPokemon.d.ts(155)
+ Type 'FullScreenPokemon' does not satisfy the constraint 'FullScreenPokemon'.
+
+[18:22:53] Finished 'docs:typedoc' after 39 s
+[18:22:53] Finished 'docs' after 39 s
+[18:22:53] Starting 'web'...
+[18:22:53] Starting 'web:copy'...
+[18:22:53] Finished 'web:copy' after 159 ms
+[18:22:53] Starting 'web:html'...
+[18:22:53] Finished 'web:html' after 29 ms
+[18:22:53] Starting 'web:main'...
+[18:22:53] Finished 'web:main' after 1.68 ms
+[18:22:53] Starting 'web:webpack'...
+[18:23:32] Version: webpack 1.15.0
+                  Asset     Size  Chunks             Chunk Names
+617095c0994ac3c7d064.js  6.08 MB       0  [emitted]  main
+[18:23:32] Finished 'web:webpack' after 39 s
+[18:23:32] Finished 'web' after 39 s
+[18:23:32] Finished 'default' after 2.42 min
+[00:47:30] Using gulpfile ~\FullScreenPokemon-master\gulpfile.js
+[00:47:30] Starting 'default'...
+[00:47:30] Starting 'src'...
+[00:47:30] Starting 'src:tsc'...
+[00:47:30] Starting 'src:tslint'...
+[00:47:32] Starting 'src:scss'...
+[00:47:32] Starting 'src:scssLint'...
+[00:47:34] Finished 'src:scssLint' after 1.78 s
+[00:47:34] Finished 'src:scss' after 2.46 s
+[00:47:40] Finished 'src:tslint' after 10 s
+[00:47:46] Finished 'src:tsc' after 17 s
+[00:47:46] Finished 'src' after 17 s
+[00:47:46] Starting 'lib'...
+[00:47:46] Starting 'lib:tsc'...
+[00:47:59] Finished 'lib:tsc' after 13 s
+[00:47:59] Starting 'lib:copy'...
+[00:47:59] Finished 'lib:copy' after 221 ms
+[00:47:59] Starting 'lib:cssMin'...
+[00:48:00] Finished 'lib:cssMin' after 116 ms
+[00:48:00] Starting 'lib:html'...
+[00:48:00] Finished 'lib:html' after 201 ms
+[00:48:00] Finished 'lib' after 13 s
+[00:48:00] Starting 'test'...
+[00:48:00] Starting 'test:html'...
+[00:48:00] Starting 'test:utilities'...
+[00:48:00] Finished 'test:html' after 42 ms
+[00:48:00] Finished 'test:utilities' after 21 ms
+[00:48:00] Starting 'test:tsc'...
+[00:48:05] TypeScript: 4 semantic errors
+[00:48:05] TypeScript: emit succeeded (with errors)
+[00:48:05] Finished 'test:tsc' after 5.16 s
+[00:48:05] Starting 'test:run'...
+
+[0m[0m
+[0m  components[0m
+[0m    Collisions[0m
+[0m      isCharacterTouchingCharacter[0m
+      [32m  ✓[0m[90m returns true when characters are touching[0m
+      [32m  ✓[0m[90m returns false when characters aren't touching[0m
+      [32m  ✓[0m[90m returns false when a character is following another[0m
+[0m    inputs[0m
+[0m      keyDownA[0m
+      [31m  1) activates a bordering activatable solid[0m
+      [31m  2) does not activate a non-bordering activatable solid[0m
+[0m    isEvolved[0m
+    [32m  ✓[0m[90m evolves a Pokemon at exactly its level requirement[0m
+    [32m  ✓[0m[90m evolves a Pokemon that exceeds its level requirement[0m
+    [32m  ✓[0m[90m does not evolve a Pokemon that has not yet reached its level requirement[0m
+[0m    Menus[0m
+[0m      pause[0m
+      [32m  ✓[0m[90m opens when pause is pressed[0m
+      [32m  ✓[0m[90m closes after B is pressed[0m
+
+[0m  games[0m
+[0m    Blank[0m
+    [32m  ✓[0m[90m Black[0m
+    [32m  ✓[0m[90m White[0m
+[0m    Pallet Town[0m
+    [32m  ✓[0m[90m Player's House Door[0m[33m (51ms)[0m
+    [32m  ✓[0m[90m Player's House Floor 1 Door[0m
+    [32m  ✓[0m[90m Player's House Floor 1 Stairs[0m
+    [32m  ✓[0m[90m Player's House Floor 2 Stairs[0m
+    [32m  ✓[0m[90m Start Game[0m
+    [32m  ✓[0m[90m Rival's House Door[0m[33m (38ms)[0m
+    [32m  ✓[0m[90m Rival's House Floor 1 Door[0m
+    [32m  ✓[0m[90m Oak's Lab Door[0m[33m (41ms)[0m
+    [32m  ✓[0m[90m Oak's Lab Floor 1 Door[0m
+[0m    Pewter City[0m
+    [32m  ✓[0m[90m Museum of Science Outside Door[0m[33m (40ms)[0m
+    [32m  ✓[0m[90m Pewter Gym Outside Door[0m[33m (40ms)[0m
+    [32m  ✓[0m[90m PokeCenter Outside Door[0m[33m (38ms)[0m
+    [32m  ✓[0m[90m PokeMart Outside Door[0m[33m (41ms)[0m
+    [32m  ✓[0m[90m Outsider House Front Door[0m[33m (55ms)[0m
+    [32m  ✓[0m[90m Info House Front Door[0m[33m (39ms)[0m
+    [32m  ✓[0m[90m Museum of Science Inside Door[0m
+    [32m  ✓[0m[90m Pewter Gym Floor 1 Door[0m
+    [32m  ✓[0m[90m PokeCenter Inside Door[0m
+    [32m  ✓[0m[90m PokeMart Inside Door[0m
+    [32m  ✓[0m[90m Museum of Science Floor 1 Door[0m
+    [32m  ✓[0m[90m Outsider House Floor 1 Door[0m
+    [32m  ✓[0m[90m Info House Floor 1 Door[0m
+[0m    Route 1[0m
+    [32m  ✓[0m[90m Top Path[0m[33m (42ms)[0m
+    [32m  ✓[0m[90m Bottom Path[0m[33m (52ms)[0m
+[0m    Route 2[0m
+    [32m  ✓[0m[90m Viridian Forest Top[0m[33m (53ms)[0m
+    [32m  ✓[0m[90m Viridian Forest Bottom[0m[33m (58ms)[0m
+[0m    Route 21[0m
+    [32m  ✓[0m[90m Temp[0m
+[0m    Route 22[0m
+    [32m  ✓[0m[90m Pokemon League[0m
+[0m    Viridian City[0m
+    [32m  ✓[0m[90m Nicknamer House Front Door[0m[33m (62ms)[0m
+    [32m  ✓[0m[90m School Front Door[0m[33m (63ms)[0m
+    [32m  ✓[0m[90m PokeCenter Outside Door[0m[33m (65ms)[0m
+    [32m  ✓[0m[90m PokeMart Outside Door[0m[33m (68ms)[0m
+    [32m  ✓[0m[90m Nicknamer House Floor 1 Door[0m
+    [32m  ✓[0m[90m School Floor 1 Door[0m
+    [32m  ✓[0m[90m PokeCenter Inside Door[0m
+    [32m  ✓[0m[90m PokeMart Inside Door[0m
+[0m    Viridian Forest[0m
+    [32m  ✓[0m[90m Gate North Door North[0m
+    [32m  ✓[0m[90m Gate North Door South[0m
+    [32m  ✓[0m[90m Forest Bottom[0m
+    [32m  ✓[0m[90m Forest Top[0m
+    [32m  ✓[0m[90m Gate South Door North[0m
+    [32m  ✓[0m[90m Gate South Door South[0m
+
+
+[92m [0m[32m 52 passing[0m[90m (3s)[0m
+[31m  2 failing[0m
+
+[0m  1) components inputs keyDownA activates a bordering activatable solid:
+[0m[31m     undefined is not an object (evaluating '_this.gameStarter.things')[0m[90m
+  file:///c:/Users/valmac/FullScreenPokemon-master/test/components/inputs/keyDownA.js:8:54
+  callFn@file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4460:25
+  run@file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4452:13
+  runTest@file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4948:13
+  file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:5054:19
+  next@file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4866:16
+  file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4876:11
+  next@file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4800:16
+  file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4844:9
+  timeslice@file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:82:27
+[0m
+[0m  2) components inputs keyDownA does not activate a non-bordering activatable solid:
+[0m[31m     undefined is not an object (evaluating '_this.gameStarter.things')[0m[90m
+  file:///c:/Users/valmac/FullScreenPokemon-master/test/components/inputs/keyDownA.js:22:54
+  callFn@file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4460:25
+  run@file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4452:13
+  runTest@file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4948:13
+  file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:5054:19
+  next@file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4866:16
+  file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4876:11
+  next@file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4800:16
+  file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:4844:9
+  timeslice@file:///c:/Users/valmac/FullScreenPokemon-master/node_modules/mocha/mocha.js:82:27
+[0m
+
+
+[00:48:11] 'test:run' errored after 6.31 s
+[00:48:11] Error in plugin 'gulp-mocha-phantomjs'
+Message:
+    test failed. phantomjs exit code: 2
+[00:48:11] 'default' errored after 41 s
+[00:48:11] Error in plugin 'run-sequence(test:run)'
+Error
+    at finish (C:\Users\valmac\FullScreenPokemon-master\node_modules\run-sequence\index.js:56:13)
+    at Gulp.onError (C:\Users\valmac\FullScreenPokemon-master\node_modules\run-sequence\index.js:67:4)
+    at emitOne (events.js:101:20)
+    at Gulp.emit (events.js:189:7)
+    at Gulp.Orchestrator._emitTaskDone (C:\Users\valmac\FullScreenPokemon-master\node_modules\orchestrator\index.js:264:8)
+    at C:\Users\valmac\FullScreenPokemon-master\node_modules\orchestrator\index.js:275:23
+    at finish (C:\Users\valmac\FullScreenPokemon-master\node_modules\orchestrator\lib\runTask.js:21:8)
+    at DestroyableTransform.<anonymous> (C:\Users\valmac\FullScreenPokemon-master\node_modules\orchestrator\lib\runTask.js:52:4)
+    at DestroyableTransform.f (C:\Users\valmac\FullScreenPokemon-master\node_modules\once\once.js:17:25)
+    at emitOne (events.js:101:20)
+[00:48:11] 'test' errored after 12 s
+[00:48:11] Error in plugin 'run-sequence(default)'
+Error
+    at finish (C:\Users\valmac\FullScreenPokemon-master\node_modules\run-sequence\index.js:56:13)
+    at Gulp.onError (C:\Users\valmac\FullScreenPokemon-master\node_modules\run-sequence\index.js:67:4)
+    at emitOne (events.js:101:20)
+    at Gulp.emit (events.js:189:7)
+    at Gulp.Orchestrator._emitTaskDone (C:\Users\valmac\FullScreenPokemon-master\node_modules\orchestrator\index.js:264:8)
+    at C:\Users\valmac\FullScreenPokemon-master\node_modules\orchestrator\index.js:275:23
+    at finish (C:\Users\valmac\FullScreenPokemon-master\node_modules\orchestrator\lib\runTask.js:21:8)
+    at cb (C:\Users\valmac\FullScreenPokemon-master\node_modules\orchestrator\lib\runTask.js:29:3)
+    at finish (C:\Users\valmac\FullScreenPokemon-master\node_modules\run-sequence\index.js:60:5)
+    at Gulp.onError (C:\Users\valmac\FullScreenPokemon-master\node_modules\run-sequence\index.js:67:4)
+[00:48:11] 'test' errored after 12 s
+[00:48:11] Error in plugin 'run-sequence(test:run)'
+Error
+    at finish (C:\Users\valmac\FullScreenPokemon-master\node_modules\run-sequence\index.js:56:13)
+    at Gulp.onError (C:\Users\valmac\FullScreenPokemon-master\node_modules\run-sequence\index.js:67:4)
+    at emitOne (events.js:101:20)
+    at Gulp.emit (events.js:189:7)
+    at Gulp.Orchestrator._emitTaskDone (C:\Users\valmac\FullScreenPokemon-master\node_modules\orchestrator\index.js:264:8)
+    at C:\Users\valmac\FullScreenPokemon-master\node_modules\orchestrator\index.js:275:23
+    at finish (C:\Users\valmac\FullScreenPokemon-master\node_modules\orchestrator\lib\runTask.js:21:8)
+    at DestroyableTransform.<anonymous> (C:\Users\valmac\FullScreenPokemon-master\node_modules\orchestrator\lib\runTask.js:52:4)
+    at DestroyableTransform.f (C:\Users\valmac\FullScreenPokemon-master\node_modules\once\once.js:17:25)
+    at emitOne (events.js:101:20)
